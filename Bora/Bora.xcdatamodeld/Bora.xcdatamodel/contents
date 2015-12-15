@@ -1,4 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="Eventos" syncable="YES">
+        <attribute name="aceitapetsevento" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="datahoraevento" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="descricaoevento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faixaetariaevento" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mapaevento" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="programacaoevento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tituloevento" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ingressosevento" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ingressos" inverseName="evento" inverseEntity="Ingressos" syncable="YES"/>
+        <relationship name="localevento" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Local" inverseName="evento" inverseEntity="Local" syncable="YES"/>
+        <relationship name="socialevento" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Social" inverseName="evento" inverseEntity="Social" syncable="YES"/>
+        <relationship name="tagsevento" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Tags" syncable="YES"/>
+    </entity>
+    <entity name="Ingressos" syncable="YES">
+        <attribute name="detalheingresso" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="evento" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Eventos" inverseName="ingressosevento" inverseEntity="Eventos" syncable="YES"/>
+    </entity>
+    <entity name="Local" syncable="YES">
+        <attribute name="latitudelocal" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitudelocal" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="evento" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Eventos" inverseName="localevento" inverseEntity="Eventos" syncable="YES"/>
+    </entity>
+    <entity name="Social" syncable="YES">
+        <attribute name="facebook" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instagram" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitter" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="evento" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Eventos" inverseName="socialevento" inverseEntity="Eventos" syncable="YES"/>
+    </entity>
+    <entity name="Tags" syncable="YES">
+        <attribute name="nometag" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Eventos" positionX="-63" positionY="-18" width="128" height="210"/>
+        <element name="Ingressos" positionX="0" positionY="45" width="128" height="75"/>
+        <element name="Local" positionX="-36" positionY="9" width="128" height="90"/>
+        <element name="Social" positionX="-18" positionY="27" width="128" height="135"/>
+        <element name="Tags" positionX="-54" positionY="-9" width="128" height="60"/>
+    </elements>
 </model>
