@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA412911C20489F0004E875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412901C20489F0004E875 /* AppDelegate.swift */; };
+		3FA412931C20489F0004E875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412921C20489F0004E875 /* ViewController.swift */; };
+		3FA412961C20489F0004E875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA412941C20489F0004E875 /* Main.storyboard */; };
+		3FA412991C20489F0004E875 /* Bora.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412971C20489F0004E875 /* Bora.xcdatamodeld */; };
+		3FA4129B1C20489F0004E875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA4129A1C20489F0004E875 /* Assets.xcassets */; };
+		3FA4129E1C20489F0004E875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA4129C1C20489F0004E875 /* LaunchScreen.storyboard */; };
+		3FA412A91C2048A00004E875 /* BoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412A81C2048A00004E875 /* BoraTests.swift */; };
+		3FA412B41C2048A00004E875 /* BoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412B31C2048A00004E875 /* BoraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA412A51C2048A00004E875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA412851C20489F0004E875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA4128C1C20489F0004E875;
+			remoteInfo = Bora;
+		};
+		3FA412B01C2048A00004E875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA412851C20489F0004E875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA4128C1C20489F0004E875;
+			remoteInfo = Bora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA4128D1C20489F0004E875 /* Bora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA412901C20489F0004E875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA412921C20489F0004E875 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA412951C20489F0004E875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA412981C20489F0004E875 /* Bora.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bora.xcdatamodel; sourceTree = "<group>"; };
+		3FA4129A1C20489F0004E875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA4129D1C20489F0004E875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA4129F1C20489F0004E875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA412A41C2048A00004E875 /* BoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA412A81C2048A00004E875 /* BoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoraTests.swift; sourceTree = "<group>"; };
+		3FA412AA1C2048A00004E875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA412AF1C2048A00004E875 /* BoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA412B31C2048A00004E875 /* BoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoraUITests.swift; sourceTree = "<group>"; };
+		3FA412B51C2048A00004E875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA4128A1C20489F0004E875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA412A11C2048A00004E875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA412AC1C2048A00004E875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA412841C20489F0004E875 = {
+			isa = PBXGroup;
+			children = (
+				3FA4128F1C20489F0004E875 /* Bora */,
+				3FA412A71C2048A00004E875 /* BoraTests */,
+				3FA412B21C2048A00004E875 /* BoraUITests */,
+				3FA4128E1C20489F0004E875 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA4128E1C20489F0004E875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA4128D1C20489F0004E875 /* Bora.app */,
+				3FA412A41C2048A00004E875 /* BoraTests.xctest */,
+				3FA412AF1C2048A00004E875 /* BoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA4128F1C20489F0004E875 /* Bora */ = {
+			isa = PBXGroup;
+			children = (
+				3FA412901C20489F0004E875 /* AppDelegate.swift */,
+				3FA412921C20489F0004E875 /* ViewController.swift */,
+				3FA412941C20489F0004E875 /* Main.storyboard */,
+				3FA4129A1C20489F0004E875 /* Assets.xcassets */,
+				3FA4129C1C20489F0004E875 /* LaunchScreen.storyboard */,
+				3FA4129F1C20489F0004E875 /* Info.plist */,
+				3FA412971C20489F0004E875 /* Bora.xcdatamodeld */,
+			);
+			path = Bora;
+			sourceTree = "<group>";
+		};
+		3FA412A71C2048A00004E875 /* BoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA412A81C2048A00004E875 /* BoraTests.swift */,
+				3FA412AA1C2048A00004E875 /* Info.plist */,
+			);
+			path = BoraTests;
+			sourceTree = "<group>";
+		};
+		3FA412B21C2048A00004E875 /* BoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA412B31C2048A00004E875 /* BoraUITests.swift */,
+				3FA412B51C2048A00004E875 /* Info.plist */,
+			);
+			path = BoraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA4128C1C20489F0004E875 /* Bora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA412B81C2048A00004E875 /* Build configuration list for PBXNativeTarget "Bora" */;
+			buildPhases = (
+				3FA412891C20489F0004E875 /* Sources */,
+				3FA4128A1C20489F0004E875 /* Frameworks */,
+				3FA4128B1C20489F0004E875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bora;
+			productName = Bora;
+			productReference = 3FA4128D1C20489F0004E875 /* Bora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA412A31C2048A00004E875 /* BoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA412BB1C2048A00004E875 /* Build configuration list for PBXNativeTarget "BoraTests" */;
+			buildPhases = (
+				3FA412A01C2048A00004E875 /* Sources */,
+				3FA412A11C2048A00004E875 /* Frameworks */,
+				3FA412A21C2048A00004E875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA412A61C2048A00004E875 /* PBXTargetDependency */,
+			);
+			name = BoraTests;
+			productName = BoraTests;
+			productReference = 3FA412A41C2048A00004E875 /* BoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA412AE1C2048A00004E875 /* BoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA412BE1C2048A00004E875 /* Build configuration list for PBXNativeTarget "BoraUITests" */;
+			buildPhases = (
+				3FA412AB1C2048A00004E875 /* Sources */,
+				3FA412AC1C2048A00004E875 /* Frameworks */,
+				3FA412AD1C2048A00004E875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA412B11C2048A00004E875 /* PBXTargetDependency */,
+			);
+			name = BoraUITests;
+			productName = BoraUITests;
+			productReference = 3FA412AF1C2048A00004E875 /* BoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA412851C20489F0004E875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = BoraApps;
+				TargetAttributes = {
+					3FA4128C1C20489F0004E875 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3FA412A31C2048A00004E875 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3FA4128C1C20489F0004E875;
+					};
+					3FA412AE1C2048A00004E875 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3FA4128C1C20489F0004E875;
+					};
+				};
+			};
+			buildConfigurationList = 3FA412881C20489F0004E875 /* Build configuration list for PBXProject "Bora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA412841C20489F0004E875;
+			productRefGroup = 3FA4128E1C20489F0004E875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA4128C1C20489F0004E875 /* Bora */,
+				3FA412A31C2048A00004E875 /* BoraTests */,
+				3FA412AE1C2048A00004E875 /* BoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA4128B1C20489F0004E875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA4129E1C20489F0004E875 /* LaunchScreen.storyboard in Resources */,
+				3FA4129B1C20489F0004E875 /* Assets.xcassets in Resources */,
+				3FA412961C20489F0004E875 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA412A21C2048A00004E875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA412AD1C2048A00004E875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA412891C20489F0004E875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA412931C20489F0004E875 /* ViewController.swift in Sources */,
+				3FA412911C20489F0004E875 /* AppDelegate.swift in Sources */,
+				3FA412991C20489F0004E875 /* Bora.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA412A01C2048A00004E875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA412A91C2048A00004E875 /* BoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA412AB1C2048A00004E875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA412B41C2048A00004E875 /* BoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA412A61C2048A00004E875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA4128C1C20489F0004E875 /* Bora */;
+			targetProxy = 3FA412A51C2048A00004E875 /* PBXContainerItemProxy */;
+		};
+		3FA412B11C2048A00004E875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA4128C1C20489F0004E875 /* Bora */;
+			targetProxy = 3FA412B01C2048A00004E875 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA412941C20489F0004E875 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA412951C20489F0004E875 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA4129C1C20489F0004E875 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA4129D1C20489F0004E875 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA412B61C2048A00004E875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA412B71C2048A00004E875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA412B91C2048A00004E875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BoraApps.Bora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FA412BA1C2048A00004E875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BoraApps.Bora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FA412BC1C2048A00004E875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BoraApps.BoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bora.app/Bora";
+			};
+			name = Debug;
+		};
+		3FA412BD1C2048A00004E875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BoraApps.BoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bora.app/Bora";
+			};
+			name = Release;
+		};
+		3FA412BF1C2048A00004E875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BoraApps.BoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bora;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FA412C01C2048A00004E875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BoraApps.BoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bora;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA412881C20489F0004E875 /* Build configuration list for PBXProject "Bora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA412B61C2048A00004E875 /* Debug */,
+				3FA412B71C2048A00004E875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA412B81C2048A00004E875 /* Build configuration list for PBXNativeTarget "Bora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA412B91C2048A00004E875 /* Debug */,
+				3FA412BA1C2048A00004E875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA412BB1C2048A00004E875 /* Build configuration list for PBXNativeTarget "BoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA412BC1C2048A00004E875 /* Debug */,
+				3FA412BD1C2048A00004E875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA412BE1C2048A00004E875 /* Build configuration list for PBXNativeTarget "BoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA412BF1C2048A00004E875 /* Debug */,
+				3FA412C01C2048A00004E875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FA412971C20489F0004E875 /* Bora.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FA412981C20489F0004E875 /* Bora.xcdatamodel */,
+			);
+			currentVersion = 3FA412981C20489F0004E875 /* Bora.xcdatamodel */;
+			path = Bora.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FA412851C20489F0004E875 /* Project object */;
+}
