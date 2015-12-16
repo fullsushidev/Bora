@@ -5,6 +5,7 @@
         <attribute name="datahoraevento" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="descricaoevento" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="faixaetariaevento" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="fotoevento" optional="YES" attributeType="Transformable" syncable="YES"/>
         <attribute name="mapaevento" optional="YES" attributeType="Transformable" syncable="YES"/>
         <attribute name="programacaoevento" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="tituloevento" optional="YES" attributeType="String" syncable="YES"/>
@@ -34,10 +35,10 @@
         <attribute name="nometag" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Eventos" positionX="-63" positionY="-18" width="128" height="210"/>
-        <element name="Ingressos" positionX="0" positionY="45" width="128" height="75"/>
-        <element name="Local" positionX="-36" positionY="9" width="128" height="90"/>
-        <element name="Social" positionX="-18" positionY="27" width="128" height="135"/>
-        <element name="Tags" positionX="-54" positionY="-9" width="128" height="60"/>
+        <element name="Eventos" positionX="-299" positionY="-252" width="128" height="223"/>
+        <element name="Ingressos" positionX="90" positionY="-261" width="128" height="75"/>
+        <element name="Local" positionX="90" positionY="-144" width="128" height="90"/>
+        <element name="Social" positionX="27" positionY="-18" width="128" height="135"/>
+        <element name="Tags" positionX="-261" positionY="117" width="128" height="60"/>
     </elements>
 </model>

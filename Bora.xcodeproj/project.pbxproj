@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F6CD91B1C217481001C24C5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CD91A1C217481001C24C5 /* CoreData.framework */; };
 		3FA412911C20489F0004E875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412901C20489F0004E875 /* AppDelegate.swift */; };
 		3FA412931C20489F0004E875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412921C20489F0004E875 /* ViewController.swift */; };
 		3FA412961C20489F0004E875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA412941C20489F0004E875 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F6CD91A1C217481001C24C5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3FA4128D1C20489F0004E875 /* Bora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA412901C20489F0004E875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA412921C20489F0004E875 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6CD91B1C217481001C24C5 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		3FA412841C20489F0004E875 = {
 			isa = PBXGroup;
 			children = (
+				3F6CD91A1C217481001C24C5 /* CoreData.framework */,
 				3FA4128F1C20489F0004E875 /* Bora */,
 				3FA412A71C2048A00004E875 /* BoraTests */,
 				3FA412B21C2048A00004E875 /* BoraUITests */,
@@ -488,6 +492,7 @@
 				3FA412BA1C2048A00004E875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA412BB1C2048A00004E875 /* Build configuration list for PBXNativeTarget "BoraTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				3FA412BD1C2048A00004E875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA412BE1C2048A00004E875 /* Build configuration list for PBXNativeTarget "BoraUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				3FA412C01C2048A00004E875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
