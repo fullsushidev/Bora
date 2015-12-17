@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15A284" minimumToolsVersion="Automatic">
     <entity name="Eventos" syncable="YES">
         <attribute name="aceitapetsevento" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="datahoraevento" optional="YES" attributeType="Date" syncable="YES"/>
@@ -12,7 +12,7 @@
         <relationship name="ingressosevento" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ingressos" inverseName="evento" inverseEntity="Ingressos" syncable="YES"/>
         <relationship name="localevento" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Local" inverseName="evento" inverseEntity="Local" syncable="YES"/>
         <relationship name="socialevento" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Social" inverseName="evento" inverseEntity="Social" syncable="YES"/>
-        <relationship name="tagsevento" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Tags" syncable="YES"/>
+        <relationship name="tagsevento" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Tags" inverseName="eventos" inverseEntity="Tags" syncable="YES"/>
     </entity>
     <entity name="Ingressos" syncable="YES">
         <attribute name="detalheingresso" optional="YES" attributeType="String" syncable="YES"/>
@@ -33,12 +33,13 @@
     </entity>
     <entity name="Tags" syncable="YES">
         <attribute name="nometag" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="eventos" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Eventos" inverseName="tagsevento" inverseEntity="Eventos" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Eventos" positionX="-299" positionY="-252" width="128" height="223"/>
+        <element name="Eventos" positionX="-299" positionY="-252" width="128" height="225"/>
         <element name="Ingressos" positionX="90" positionY="-261" width="128" height="75"/>
         <element name="Local" positionX="90" positionY="-144" width="128" height="90"/>
         <element name="Social" positionX="27" positionY="-18" width="128" height="135"/>
-        <element name="Tags" positionX="-261" positionY="117" width="128" height="60"/>
+        <element name="Tags" positionX="-261" positionY="117" width="128" height="75"/>
     </elements>
 </model>

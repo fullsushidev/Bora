@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F26B8EA1C22ED590090D109 /* EventoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26B8E91C22ED590090D109 /* EventoTableViewController.swift */; };
+		3F26B8EC1C22ED810090D109 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26B8EB1C22ED810090D109 /* InicioViewController.swift */; };
+		3F26B8EE1C22EDA90090D109 /* CadastroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26B8ED1C22EDA90090D109 /* CadastroTableViewController.swift */; };
+		3F26B8F01C22EDC20090D109 /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26B8EF1C22EDC20090D109 /* DetalheViewController.swift */; };
 		3F6CD91B1C217481001C24C5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CD91A1C217481001C24C5 /* CoreData.framework */; };
 		3FA412911C20489F0004E875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412901C20489F0004E875 /* AppDelegate.swift */; };
 		3FA412931C20489F0004E875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412921C20489F0004E875 /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F26B8E91C22ED590090D109 /* EventoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventoTableViewController.swift; sourceTree = "<group>"; };
+		3F26B8EB1C22ED810090D109 /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		3F26B8ED1C22EDA90090D109 /* CadastroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroTableViewController.swift; sourceTree = "<group>"; };
+		3F26B8EF1C22EDC20090D109 /* DetalheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
 		3F6CD91A1C217481001C24C5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3FA4128D1C20489F0004E875 /* Bora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA412901C20489F0004E875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +114,10 @@
 				3FA412901C20489F0004E875 /* AppDelegate.swift */,
 				3FA412921C20489F0004E875 /* ViewController.swift */,
 				3FA412941C20489F0004E875 /* Main.storyboard */,
+				3F26B8EF1C22EDC20090D109 /* DetalheViewController.swift */,
+				3F26B8ED1C22EDA90090D109 /* CadastroTableViewController.swift */,
+				3F26B8EB1C22ED810090D109 /* InicioViewController.swift */,
+				3F26B8E91C22ED590090D109 /* EventoTableViewController.swift */,
 				3FA4129A1C20489F0004E875 /* Assets.xcassets */,
 				3FA4129C1C20489F0004E875 /* LaunchScreen.storyboard */,
 				3FA4129F1C20489F0004E875 /* Info.plist */,
@@ -266,6 +278,10 @@
 				3FA412931C20489F0004E875 /* ViewController.swift in Sources */,
 				3FA412911C20489F0004E875 /* AppDelegate.swift in Sources */,
 				3FA412991C20489F0004E875 /* Bora.xcdatamodeld in Sources */,
+				3F26B8EC1C22ED810090D109 /* InicioViewController.swift in Sources */,
+				3F26B8EE1C22EDA90090D109 /* CadastroTableViewController.swift in Sources */,
+				3F26B8F01C22EDC20090D109 /* DetalheViewController.swift in Sources */,
+				3F26B8EA1C22ED590090D109 /* EventoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
