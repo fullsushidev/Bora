@@ -7,19 +7,28 @@
 //
 
 import UIKit
+import CoreLocation
+import MapKit
 
-class CadastroTableViewController: UITableViewController {
-
+class CadastroTableViewController: UITableViewController, CLLocationManagerDelegate {
+    
+    
+ /*   let locMgr = CLLocationManager()
+    var myCurrLoc:CLLocation?
+    var myAdress:String?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-    }
-
+        
+        locMgr.desiredAccuracy = kCLLocationAccuracyBest
+        locMgr.requestWhenInUseAuthorization()
+        locMgr.startUpdatingLocation()
+        locMgr.delegate = self //important
+        
+        
+    }*/
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

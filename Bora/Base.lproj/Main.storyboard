@@ -18,22 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOGO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uZ-lf-iCH">
-                                <rect key="frame" x="117" y="74" width="87" height="56"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zm9-9p-PYG">
                                 <rect key="frame" x="91" y="513" width="138" height="35"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
                                 <state key="normal" title="ENTRAR"/>
                                 <connections>
                                     <segue destination="2Xv-jF-mbr" kind="show" id="nAa-Aw-v5q"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Screen Shot 2015-12-18 at 8.13.13 AM.png" translatesAutoresizingMaskIntoConstraints="NO" id="J2u-Td-ptI">
+                                <rect key="frame" x="-18" y="111" width="356" height="345"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -48,14 +46,14 @@
         <!--EventoTableViewController-->
         <scene sceneID="xhw-3A-ggP">
             <objects>
-                <tableViewController title="EventoTableViewController" id="AiC-g9-Vu6" sceneMemberID="viewController">
+                <tableViewController title="EventoTableViewController" id="AiC-g9-Vu6" customClass="EventoTableViewController" customModule="Bora" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="zwC-Vz-GUJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="zvn-mn-6MI">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="zvn-mn-6MI" customClass="EventoTableViewCell" customModule="Bora" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zvn-mn-6MI" id="9Qd-OD-Mma">
@@ -99,7 +97,7 @@
         <!--CadastroTableViewController-->
         <scene sceneID="Y2C-9g-Fhh">
             <objects>
-                <tableViewController title="CadastroTableViewController" id="Yvw-hv-vO7" sceneMemberID="viewController">
+                <tableViewController title="CadastroTableViewController" id="Yvw-hv-vO7" customClass="CadastroTableViewController" customModule="Bora" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" sectionIndexMinimumDisplayRowCount="16" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="R0f-no-Yx1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,28 +106,19 @@
                         <sections>
                             <tableViewSection id="Egm-VO-CGv">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CellMapa" rowHeight="195" id="fgY-n2-sOk">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CellMapa" rowHeight="195" id="fgY-n2-sOk" customClass="CadastroTableViewCell" customModule="Bora" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="64" width="320" height="195"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fgY-n2-sOk" id="cz7-Gh-WDK">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="195"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rci-Ld-1c6">
-                                                    <rect key="frame" x="40" y="34" width="240" height="128"/>
-                                                    <animations/>
-                                                </mapView>
-                                            </subviews>
                                             <animations/>
                                             <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.94999999999999996"/>
-                                            <constraints>
-                                                <constraint firstItem="rci-Ld-1c6" firstAttribute="top" secondItem="cz7-Gh-WDK" secondAttribute="topMargin" constant="26" id="Q5E-1H-6ag"/>
-                                                <constraint firstItem="rci-Ld-1c6" firstAttribute="leading" secondItem="cz7-Gh-WDK" secondAttribute="leadingMargin" constant="32" id="S3I-gG-zfu"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="rci-Ld-1c6" secondAttribute="bottom" constant="25" id="h9Z-w6-UaS"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="rci-Ld-1c6" secondAttribute="trailing" constant="32" id="jBz-78-5Wv"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <outlet property="enderecoLabel" destination="6F0-Jq-dKh" id="nG2-ui-SlK"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellTitulo" rowHeight="40" id="GVN-j1-PPt">
                                         <rect key="frame" x="0.0" y="259" width="320" height="40"/>
@@ -165,31 +154,31 @@
                                                     <rect key="frame" x="8" y="5" width="48.5" height="30"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MM*" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s98-1h-Y0Q">
                                                     <rect key="frame" x="58" y="5" width="52.5" height="30"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="AA*" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="35o-2g-eRG">
                                                     <rect key="frame" x="113" y="5" width="46" height="30"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="HH*" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="955-zO-4To">
                                                     <rect key="frame" x="194" y="5" width="49" height="30"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MM*" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="v5n-4l-v1s">
                                                     <rect key="frame" x="245" y="5" width="52.5" height="30"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
                                             </subviews>
                                             <animations/>
@@ -271,7 +260,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tags" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kAL-ml-kn4">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tag" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kAL-ml-kn4">
                                                     <rect key="frame" x="8" y="5" width="304" height="30"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -463,6 +452,9 @@
                     </tableView>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="900"/>
+                    <connections>
+                        <outlet property="enderecoLabel" destination="6F0-Jq-dKh" id="VMK-E1-dro"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ySA-g9-6Po" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -509,4 +501,7 @@
             <point key="canvasLocation" x="-173" y="277"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Screen Shot 2015-12-18 at 8.13.13 AM.png" width="216" height="116"/>
+    </resources>
 </document>

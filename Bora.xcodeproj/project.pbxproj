@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F05E1941C24190800E8AB4C /* Screen Shot 2015-12-18 at 8.13.13 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F05E1931C24190800E8AB4C /* Screen Shot 2015-12-18 at 8.13.13 AM.png */; };
 		3F26B8EA1C22ED590090D109 /* EventoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26B8E91C22ED590090D109 /* EventoTableViewController.swift */; };
 		3F26B8EC1C22ED810090D109 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26B8EB1C22ED810090D109 /* InicioViewController.swift */; };
 		3F26B8EE1C22EDA90090D109 /* CadastroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26B8ED1C22EDA90090D109 /* CadastroTableViewController.swift */; };
@@ -20,6 +21,8 @@
 		3FA4129E1C20489F0004E875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA4129C1C20489F0004E875 /* LaunchScreen.storyboard */; };
 		3FA412A91C2048A00004E875 /* BoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412A81C2048A00004E875 /* BoraTests.swift */; };
 		3FA412B41C2048A00004E875 /* BoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA412B31C2048A00004E875 /* BoraUITests.swift */; };
+		3FF72B161C24116200A3F007 /* EventoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF72B151C24116200A3F007 /* EventoTableViewCell.swift */; };
+		3FF72B181C2414F000A3F007 /* CadastroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF72B171C2414F000A3F007 /* CadastroTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F05E1931C24190800E8AB4C /* Screen Shot 2015-12-18 at 8.13.13 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-12-18 at 8.13.13 AM.png"; sourceTree = SOURCE_ROOT; };
 		3F26B8E91C22ED590090D109 /* EventoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventoTableViewController.swift; sourceTree = "<group>"; };
 		3F26B8EB1C22ED810090D109 /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
 		3F26B8ED1C22EDA90090D109 /* CadastroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroTableViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 		3FA412AF1C2048A00004E875 /* BoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA412B31C2048A00004E875 /* BoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoraUITests.swift; sourceTree = "<group>"; };
 		3FA412B51C2048A00004E875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF72B151C24116200A3F007 /* EventoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventoTableViewCell.swift; sourceTree = "<group>"; };
+		3FF72B171C2414F000A3F007 /* CadastroTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +117,12 @@
 		3FA4128F1C20489F0004E875 /* Bora */ = {
 			isa = PBXGroup;
 			children = (
+				3FA412941C20489F0004E875 /* Main.storyboard */,
+				3F05E1931C24190800E8AB4C /* Screen Shot 2015-12-18 at 8.13.13 AM.png */,
+				3FF72B171C2414F000A3F007 /* CadastroTableViewCell.swift */,
+				3FF72B151C24116200A3F007 /* EventoTableViewCell.swift */,
 				3FA412901C20489F0004E875 /* AppDelegate.swift */,
 				3FA412921C20489F0004E875 /* ViewController.swift */,
-				3FA412941C20489F0004E875 /* Main.storyboard */,
 				3F26B8EF1C22EDC20090D109 /* DetalheViewController.swift */,
 				3F26B8ED1C22EDA90090D109 /* CadastroTableViewController.swift */,
 				3F26B8EB1C22ED810090D109 /* InicioViewController.swift */,
@@ -212,6 +221,7 @@
 				TargetAttributes = {
 					3FA4128C1C20489F0004E875 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7RFMEHQ4F5;
 					};
 					3FA412A31C2048A00004E875 = {
 						CreatedOnToolsVersion = 7.1;
@@ -250,6 +260,7 @@
 			files = (
 				3FA4129E1C20489F0004E875 /* LaunchScreen.storyboard in Resources */,
 				3FA4129B1C20489F0004E875 /* Assets.xcassets in Resources */,
+				3F05E1941C24190800E8AB4C /* Screen Shot 2015-12-18 at 8.13.13 AM.png in Resources */,
 				3FA412961C20489F0004E875 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF72B181C2414F000A3F007 /* CadastroTableViewCell.swift in Sources */,
+				3FF72B161C24116200A3F007 /* EventoTableViewCell.swift in Sources */,
 				3FA412931C20489F0004E875 /* ViewController.swift in Sources */,
 				3FA412911C20489F0004E875 /* AppDelegate.swift in Sources */,
 				3FA412991C20489F0004E875 /* Bora.xcdatamodeld in Sources */,
@@ -423,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Bora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BoraApps.Bora;
@@ -434,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Bora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BoraApps.Bora;
